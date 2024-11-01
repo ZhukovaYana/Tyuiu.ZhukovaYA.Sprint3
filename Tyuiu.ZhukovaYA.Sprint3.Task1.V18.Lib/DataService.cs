@@ -7,7 +7,7 @@ namespace Tyuiu.ZhukovaYA.Sprint3.Task1.V18.Lib
         public double GetSumSeries(int startValue, int stopValue)
         {
             double result = 0;
-            while (startValue < stopValue)
+            while (startValue <= stopValue)
             {
                 result += Math.Sin(startValue) * 0.0625;
                 startValue++;

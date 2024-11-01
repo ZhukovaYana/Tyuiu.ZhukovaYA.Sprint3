@@ -10,7 +10,7 @@ namespace Tyuiu.ZhukovaYA.Sprint3.Task7.V10.Lib
             int count = 0;
             for (int i = startValue; i <= stopValue; i++)
             {
-                result[count] = Math.Round(((5*i+2.5)/(Math.Sin(i)+3))+2*i+Math.Cos(i),3);
+                result[count] = Math.Round(((5*i+2.5)/(Math.Sin(i)+3))+2*i+Math.Cos(i),2);
                 count++;
             }
             return result;
